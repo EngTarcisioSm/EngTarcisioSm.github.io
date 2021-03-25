@@ -13,9 +13,13 @@ main{
     background-color: white;
     width: 65%;
     margin: auto;
-    border-radius: 12px;
+    /* border-radius: 12px; */
     padding: 12px;
     box-shadow: 10px 10px 10px #507b6da3;
+    height: 95vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
 }
 h1{
     color: #137F9D;
@@ -65,3 +69,14 @@ p{
 .email{
     text-align: center;
 }
+
+
+.clearlink{
+    text-decoration: none;
+    color: #000;
+}
+
+.clearlink:active{
+    color: blue;
+}
+
