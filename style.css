@@ -76,7 +76,7 @@ p{
     color: #000;
 }
 
-.clearlink:active{
-    color: blue;
+.div1 a:hover{
+    background-color: #8AD3BC;
 }
 
